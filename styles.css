@@ -24,12 +24,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 35px 40px;
   text-align: center;
   color: var(--white);
-  background:
-    linear-gradient(rgba(169, 111, 125, 0.68),   rgba(169, 111, 125, 0.68) ),
-    url("images/banner.jpg") center/cover no-repeat;
+
+  background-image:
+    linear-gradient(
+      rgba(169, 111, 125, 0.48),
+      rgba(169, 111, 125, 0.48)
+    ),
+    url("images/banner.jpg");
+
+  background-size: cover;
+  background-position: center 45%;
+  background-repeat: no-repeat;
 }
 
 .overlay {
