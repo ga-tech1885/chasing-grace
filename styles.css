@@ -45,16 +45,16 @@ body {
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  margin-bottom: 12px;
+  font-size: 3.6rem;
+  margin: 0 0 12px;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.55);
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
-  font-size: 1.35rem;
-  margin-bottom: 28px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.55);
+  font-size: 1.2rem;
+  margin: 0 0 24px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
 }
 
 .button {
@@ -69,7 +69,7 @@ body {
 
 main {
   max-width: 950px;
-  margin: -60px auto 40px;
+  margin: -35px auto 40px;
   padding: 20px;
 }
 
