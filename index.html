@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chasing Grace</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header class="hero">
-    <div class="overlay">
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#poems">Poems</a>
+    <a href="#photography">Photography</a>
+    <a href="#art">Art</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-content">
       <h1>Chasing Grace</h1>
       <p>Poems, photographs, art, and quiet reflections on finding beauty.</p>
       <a href="#latest" class="button">Explore</a>
@@ -17,44 +26,63 @@
   </header>
 
   <main>
-    <section class="card">
+
+    <section class="welcome-card" id="about">
       <h2>Welcome</h2>
       <p>
-        Chasing Grace is a personal collection of writing, photography, artwork,
-        and reflections on beauty, memory, motherhood, healing, and everyday wonder.
+        Chasing Grace is a personal collection of writing, photography,
+        artwork, and reflections on beauty, memory, motherhood, healing,
+        and everyday wonder.
       </p>
     </section>
 
-    <section class="card" id="latest">
-      <h2>Latest Reflections</h2>
-      <article>
-        <h3>First Post Title</h3>
-        <p>
-          Write a short preview of your first blog post, poem, or photo essay here.
-        </p>
+    <section class="latest" id="latest">
+      <h2 class="section-title">Latest Reflections</h2>
+      <div class="divider">◇</div>
+
+      <article class="post-preview">
+        <img src="images/post.jpg" alt="Latest reflection">
+
+        <div class="post-text">
+          <h3>First Post Title</h3>
+          <p>A quiet beginning.</p>
+          <a href="#">Read more →</a>
+        </div>
+
+        <p class="post-date">August 22, 2026</p>
       </article>
     </section>
 
-    <section class="card">
-      <h2>Collections</h2>
-      <div class="grid">
-        <div>
+    <section class="collections">
+      <h2 class="section-title">Collections</h2>
+      <div class="divider">◇</div>
+
+      <div class="collection-grid">
+
+        <div class="collection-item" id="poems">
           <h3>Poems</h3>
-          <p>Fragments, memories, and quiet observations.</p>
+          <p>Words from the heart.</p>
+          <img src="images/poems.jpg" alt="Poetry collection">
         </div>
-        <div>
+
+        <div class="collection-item" id="photography">
           <h3>Photography</h3>
-          <p>Light, ocean, home, family, and small beautiful moments.</p>
+          <p>Capturing beauty in the everyday.</p>
+          <img src="images/photography.jpg" alt="Photography collection">
         </div>
-        <div>
+
+        <div class="collection-item" id="art">
           <h3>Art</h3>
-          <p>Paintings, sketches, glass desk projects, and creative experiments.</p>
+          <p>Creating from inspiration and soul.</p>
+          <img src="images/art.jpg" alt="Art collection">
         </div>
+
       </div>
     </section>
+
   </main>
 
-  <footer>
+  <footer id="contact">
     <p>Chasing Grace</p>
   </footer>
 
