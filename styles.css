@@ -1,5 +1,5 @@
 :root {
-  --deep-blue: #243447;
+  --dusty-pink: #A96F7D;
   --soft-gold: #c8a96a;
   --cream: #f8f3ea;
   --white: #ffffff;
@@ -28,7 +28,7 @@ body {
   text-align: center;
   color: var(--white);
   background:
-    linear-gradient(rgba(36, 52, 71, 0.75), rgba(36, 52, 71, 0.75)),
+    linear-gradient(rgba(169, 111, 125, 0.68),   rgba(169, 111, 125, 0.68) ),
     url("images/banner.jpg") center/cover no-repeat;
 }
 
@@ -74,7 +74,7 @@ main {
 }
 
 h2 {
-  color: var(--deep-blue);
+  color: var(--dusty-pink);
 }
 
 h3 {
@@ -96,7 +96,7 @@ h3 {
 footer {
   text-align: center;
   padding: 25px;
-  background: var(--deep-blue);
+  background: var(--dusty-pink);
   color: var(--soft-gold);
 }
 
