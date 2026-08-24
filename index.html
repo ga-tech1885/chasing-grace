@@ -6,84 +6,577 @@
   <title>Chasing Grace</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
   <nav class="navbar">
-    <a href="#home" class="active">Home</a>
-    <a href="#poems">Poems</a>
-    <a href="#photography">Photography</a>
-    <a href="#art">Art</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <div class="nav-inner">
+      <a href="#home" class="nav-brand">Chasing Grace</a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#creative">Creative</a>
+        <a href="#technical">Cybersecurity</a>
+        <a href="#latest">Latest</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
   </nav>
+
 
   <header class="hero" id="home">
     <div class="hero-content">
+      <p class="hero-eyebrow">Creativity • Curiosity • Discovery</p>
+
       <h1>Chasing Grace</h1>
-      <p>Poems, photographs, art, and quiet reflections on finding beauty.</p>
-      <a href="#latest" class="button">Explore</a>
+
+      <p class="hero-subtitle">
+        Creativity, curiosity, and the pursuit of beautiful things.
+      </p>
+
+      <a href="#journey" class="button hero-button">
+        Explore the Journey
+      </a>
     </div>
   </header>
 
+
   <main>
 
+    <!-- WELCOME -->
+
     <section class="welcome-card" id="about">
-      <h2>Welcome</h2>
-      <p>
-        Chasing Grace is a personal collection of writing, photography,
-        artwork, and reflections on beauty, memory, motherhood, healing,
-        and everyday wonder.
-      </p>
+
+      <div class="welcome-copy">
+        <p class="eyebrow">WELCOME</p>
+
+        <h2>A little bit of everything I love.</h2>
+
+        <p>
+          Chasing Grace is a collection of creativity, curiosity,
+          and the things I continue learning along the way.
+        </p>
+
+        <p>
+          Here you'll find poetry, photography, art, reflections,
+          cybersecurity projects, research, and pieces of my technical journey.
+        </p>
+      </div>
+
+
+      <div class="welcome-decoration" aria-hidden="true">
+        <svg viewBox="0 0 220 180">
+
+          <path
+            d="M25 158
+               C62 145, 88 120, 107 91
+               C124 65, 136 39, 141 15"
+            class="botanical-line"
+          />
+
+          <path
+            d="M55 138 C41 123, 32 111, 27 95"
+            class="botanical-line"
+          />
+
+          <path
+            d="M78 118 C64 99, 59 83, 60 66"
+            class="botanical-line"
+          />
+
+          <path
+            d="M100 95 C119 84, 135 69, 146 52"
+            class="botanical-line"
+          />
+
+          <path
+            d="M118 72 C105 55, 101 42, 104 27"
+            class="botanical-line"
+          />
+
+          <ellipse
+            cx="26"
+            cy="93"
+            rx="6"
+            ry="14"
+            transform="rotate(-38 26 93)"
+            class="botanical-leaf"
+          />
+
+          <ellipse
+            cx="59"
+            cy="64"
+            rx="6"
+            ry="14"
+            transform="rotate(-8 59 64)"
+            class="botanical-leaf"
+          />
+
+          <ellipse
+            cx="147"
+            cy="50"
+            rx="6"
+            ry="14"
+            transform="rotate(40 147 50)"
+            class="botanical-leaf"
+          />
+
+          <ellipse
+            cx="104"
+            cy="26"
+            rx="6"
+            ry="14"
+            transform="rotate(-15 104 26)"
+            class="botanical-leaf"
+          />
+
+          <circle cx="46" cy="116" r="3.2" class="botanical-berry"/>
+          <circle cx="68" cy="106" r="2.7" class="botanical-berry"/>
+          <circle cx="127" cy="78" r="3.2" class="botanical-berry"/>
+          <circle cx="113" cy="53" r="2.7" class="botanical-berry"/>
+
+          <text x="160" y="70" class="svg-star">✦</text>
+          <text x="177" y="94" class="svg-star-small">✧</text>
+
+        </svg>
+      </div>
+
     </section>
 
-    <section class="latest" id="latest">
-      <h2 class="section-title">Latest Reflections</h2>
-      <div class="divider">◇</div>
 
-      <article class="post-preview">
-        <img src="images/post.jpg" alt="Latest reflection">
+    <!-- TWO PATHS -->
 
-        <div class="post-text">
-          <h3>First Post Title</h3>
-          <p>A quiet beginning.</p>
-          <a href="#">Read more →</a>
-        </div>
+    <section class="journey-section" id="journey">
 
-        <p class="post-date">August 22, 2026</p>
-      </article>
-    </section>
+      <h2 class="section-title">Two Paths, One Journey</h2>
 
-    <section class="collections">
-      <h2 class="section-title">Collections</h2>
-      <div class="divider">◇</div>
+      <div class="gold-flourish">
+        <span>◇</span>
+      </div>
 
-      <div class="collection-grid">
 
-        <div class="collection-item" id="poems">
-          <h3>Poems</h3>
-          <p>Words from the heart.</p>
-          <img src="images/poems.jpg" alt="Poetry collection">
-        </div>
+      <div class="path-grid">
 
-        <div class="collection-item" id="photography">
-          <h3>Photography</h3>
-          <p>Capturing beauty in the everyday.</p>
-          <img src="images/photography.jpg" alt="Photography collection">
-        </div>
+        <!-- CREATIVE -->
 
-        <div class="collection-item" id="art">
-          <h3>Art</h3>
-          <p>Creating from inspiration and soul.</p>
-          <img src="images/art.jpg" alt="Art collection">
-        </div>
+        <article class="path-card creative-card" id="creative">
+
+          <div class="path-icon creative-icon">✦</div>
+
+          <p class="card-eyebrow creative-text">THE CREATIVE</p>
+
+          <h3>Making Meaning</h3>
+
+          <p>
+            A home for the words, photographs, art, and reflections
+            that capture the beautiful and complicated pieces of life.
+          </p>
+
+
+          <div class="mini-gallery">
+
+            <a href="#poems" class="mini-card">
+              <img src="images/poems.jpg" alt="Poems">
+              <span>Poems</span>
+            </a>
+
+            <a href="#photography" class="mini-card">
+              <img src="images/photography.jpg" alt="Photography">
+              <span>Photography</span>
+            </a>
+
+            <a href="#art" class="mini-card">
+              <img src="images/art.jpg" alt="Art">
+              <span>Art</span>
+            </a>
+
+          </div>
+
+
+          <a href="#creative-work" class="button creative-button">
+            Explore Creative Work
+          </a>
+
+        </article>
+
+
+        <!-- TECHNICAL -->
+
+        <article class="path-card technical-card" id="technical">
+
+          <div class="path-icon technical-icon">⌘</div>
+
+          <p class="card-eyebrow technical-text">THE TECHNICAL</p>
+
+          <h3>Learning by Building</h3>
+
+          <p>
+            Cybersecurity projects, experiments, research, coursework,
+            and lessons learned from building and breaking things
+            in controlled environments.
+          </p>
+
+
+          <div class="mini-gallery">
+
+            <a href="#cybersecurity" class="mini-card technical-mini">
+              <img src="images/cybersecurity.jpg" alt="Cybersecurity projects">
+              <span>Cybersecurity</span>
+            </a>
+
+            <a href="#homelab" class="mini-card technical-mini">
+              <img src="images/homelab.jpg" alt="Home lab">
+              <span>Home Lab</span>
+            </a>
+
+            <a href="#research" class="mini-card technical-mini">
+              <img src="images/research.jpg" alt="Cybersecurity research">
+              <span>Research</span>
+            </a>
+
+          </div>
+
+
+          <a href="#technical-work" class="button technical-button">
+            Explore Technical Work
+          </a>
+
+        </article>
 
       </div>
+
+    </section>
+
+
+    <!-- CREATIVE PORTFOLIO -->
+
+    <section class="portfolio-section" id="creative-work">
+
+      <h2 class="section-title">The Creative</h2>
+
+      <div class="gold-flourish">
+        <span>◇</span>
+      </div>
+
+
+      <div class="portfolio-grid">
+
+        <article class="portfolio-card" id="poems">
+
+          <img src="images/poems.jpg" alt="Poetry">
+
+          <div class="portfolio-content">
+            <p class="card-eyebrow creative-text">POETRY</p>
+
+            <h3>Poems</h3>
+
+            <p>
+              Fragments, memories, observations, and the things that
+              are sometimes easier to say in verse.
+            </p>
+
+            <a href="#" class="read-more">
+              Read poems →
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="portfolio-card" id="photography">
+
+          <img src="images/photography.jpg" alt="Photography">
+
+          <div class="portfolio-content">
+            <p class="card-eyebrow creative-text">PHOTOGRAPHY</p>
+
+            <h3>Through My Lens</h3>
+
+            <p>
+              Landscapes, details, people, and the small moments
+              that make me stop and look twice.
+            </p>
+
+            <a href="#" class="read-more">
+              View photographs →
+            </a>
+          </div>
+
+        </article>
+
+
+        <article class="portfolio-card" id="art">
+
+          <img src="images/art.jpg" alt="Artwork">
+
+          <div class="portfolio-content">
+            <p class="card-eyebrow creative-text">ART</p>
+
+            <h3>Things I've Made</h3>
+
+            <p>
+              Artwork, experiments, and projects created simply
+              because something inspired me.
+            </p>
+
+            <a href="#" class="read-more">
+              View art →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- TECHNICAL PORTFOLIO -->
+
+    <section class="portfolio-section" id="technical-work">
+
+      <h2 class="section-title">The Technical</h2>
+
+      <div class="gold-flourish">
+        <span>◇</span>
+      </div>
+
+
+      <div class="portfolio-grid">
+
+        <article
+          class="portfolio-card technical-portfolio"
+          id="cybersecurity"
+        >
+
+          <img
+            src="images/cybersecurity.jpg"
+            alt="Cybersecurity projects"
+          >
+
+          <div class="portfolio-content">
+
+            <p class="card-eyebrow technical-text">
+              CYBERSECURITY
+            </p>
+
+            <h3>Projects &amp; Experiments</h3>
+
+            <p>
+              Security projects, technical exercises, tools, and
+              lessons learned while exploring how systems work
+              and fail.
+            </p>
+
+            <a
+              href="#"
+              class="read-more technical-link"
+            >
+              Explore projects →
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="portfolio-card technical-portfolio"
+          id="homelab"
+        >
+
+          <img
+            src="images/homelab.jpg"
+            alt="Cybersecurity home lab"
+          >
+
+          <div class="portfolio-content">
+
+            <p class="card-eyebrow technical-text">
+              HOME LAB
+            </p>
+
+            <h3>Inside My Lab</h3>
+
+            <p>
+              Virtual machines, vulnerable applications,
+              network layouts, security tools, and the
+              environments I use to learn.
+            </p>
+
+            <a
+              href="#"
+              class="read-more technical-link"
+            >
+              Tour the lab →
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="portfolio-card technical-portfolio"
+          id="research"
+        >
+
+          <img
+            src="images/research.jpg"
+            alt="Cybersecurity research and papers"
+          >
+
+          <div class="portfolio-content">
+
+            <p class="card-eyebrow technical-text">
+              RESEARCH
+            </p>
+
+            <h3>Papers &amp; Writing</h3>
+
+            <p>
+              Selected cybersecurity research, policy analysis,
+              academic writing, and technical notes.
+            </p>
+
+            <a
+              href="#"
+              class="read-more technical-link"
+            >
+              Browse research →
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- LATEST -->
+
+    <section class="latest-section" id="latest">
+
+      <h2 class="section-title">Latest from the Journey</h2>
+
+      <div class="gold-flourish">
+        <span>◇</span>
+      </div>
+
+
+      <div class="latest-grid">
+
+        <article class="latest-card">
+
+          <p class="post-category creative-text">
+            REFLECTION
+          </p>
+
+          <h3>First Post Title</h3>
+
+          <p>
+            A quiet beginning and a place to collect thoughts
+            worth remembering.
+          </p>
+
+          <a href="#" class="read-more">
+            Read more →
+          </a>
+
+        </article>
+
+
+        <article class="latest-card">
+
+          <p class="post-category technical-text">
+            CYBERSECURITY
+          </p>
+
+          <h3>Inside My Home Lab</h3>
+
+          <p>
+            A look at the virtual machines, vulnerable systems,
+            tools, and experiments I use to practice cybersecurity.
+          </p>
+
+          <a href="#" class="read-more technical-link">
+            Read more →
+          </a>
+
+        </article>
+
+
+        <article class="latest-card">
+
+          <p class="post-category creative-text">
+            PHOTOGRAPHY
+          </p>
+
+          <h3>Finding Beauty in the Ordinary</h3>
+
+          <p>
+            Photographs and small observations from the places
+            that make me stop and look twice.
+          </p>
+
+          <a href="#" class="read-more">
+            View collection →
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CLOSING -->
+
+    <section class="closing-decoration">
+
+      <div class="celestial-design" aria-hidden="true">
+
+        <span class="celestial-star star-one">✦</span>
+        <span class="celestial-star star-two">✧</span>
+
+        <span class="moon">☾</span>
+
+        <span class="celestial-star star-three">✦</span>
+        <span class="celestial-star star-four">✧</span>
+
+      </div>
+
+      <p>
+        Keep creating. Keep learning. Keep chasing grace.
+      </p>
+
     </section>
 
   </main>
 
-  <footer id="contact">
-    <p>Chasing Grace</p>
+
+  <footer>
+
+    <div class="footer-inner">
+
+      <h2>Chasing Grace</h2>
+
+      <p>
+        Creativity, curiosity, and the pursuit of beautiful things.
+      </p>
+
+      <div class="heart-divider">
+        <span>♡</span>
+      </div>
+
+      <p class="footer-small">
+        Poems • Photography • Art • Cybersecurity • Research
+      </p>
+
+    </div>
+
   </footer>
 
 </body>
